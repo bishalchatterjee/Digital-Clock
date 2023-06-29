@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Helvetica', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .heading {
+    font-family: 'Helvetica', monospace;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  
+  .clock-container {
+    text-align: center;
+    margin: 0;
+    margin-top: -50px; 
+  }
+  
+  .clock-container h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+  }
+  
+  .clock-container h3 {
+    font-family: 'Helvetica', monospace;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+  }
+  
+  button:active {
+    background-color: #ffffff;
+  }
+  
